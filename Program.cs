@@ -10,16 +10,15 @@ namespace AddressBookSystem
 
             while (true)
             {
-                //Console.WriteLine("*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*");
                 Console.WriteLine("1. Add member to Contact list \n2.View Members in Contact List\n3.Exit");
                 Console.WriteLine("Enter an option:");
                 switch (Convert.ToInt32(Console.ReadLine()))
                 {
                     case 1:
-                        UC_1CreateAddressBook.AddMember();
+                        UC2AddNewContacts.AddMember();
                         break;
                     case 2:
-                        UC_1CreateAddressBook.ViewContacts();
+                        UC2AddNewContacts.ViewContacts();
                         break;
 
                     case 3:
